@@ -1,0 +1,26 @@
+[
+    {
+        "licencePlate": "BD - 0243 LMZ",
+        "brand": "Audi",
+        "color": "Black",
+        "doors": 5
+    },
+    {
+        "licencePlate": "BD - 2450 NXB",
+        "brand": "Audi",
+        "color": "White",
+        "doors": 3
+    },
+    {
+        "licencePlate": "BD - 3270 HSR",
+        "brand": "Ford",
+        "color": "Red",
+        "doors": 5
+    },
+    {
+        "licencePlate": "BD - 5456 URN",
+        "brand": "Audi",
+        "color": "White",
+        "doors": 2
+    }
+]
