@@ -26,6 +26,8 @@ public class AppConfig {
         return new ObjectMapper();
     }
 
+    // Se usaria como un bean, siempre y cuando CarRepositoryJson 
+    // no tenga la anotación @Repository
     @Bean
     CarRepositoryJson carRepositoryJson(ClassPathResource resource, ObjectMapper objectMapper){
         return new CarRepositoryJson(resource, objectMapper);

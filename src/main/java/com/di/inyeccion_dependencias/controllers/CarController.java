@@ -26,7 +26,6 @@ public class CarController {
 
     @GetMapping("/cars/{licensePlate}")
     public Car getCarByLicensePlate(@PathVariable String licensePlate) {
-        // System.out.println(licensePlate);
         return service.getCatByLicensePlate(licensePlate);
     }
     

@@ -17,6 +17,7 @@ public class CarRepositoryJson implements ICarRepository{
     private final ClassPathResource resource;
     private final ObjectMapper objectMapper;
 
+    // Inyecta resourse y objectMapper de AppConfig
     public CarRepositoryJson(ClassPathResource resource, ObjectMapper objectMapper){
         this.objectMapper = objectMapper;
         this.resource = resource;

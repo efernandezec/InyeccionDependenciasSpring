@@ -12,8 +12,9 @@ import com.di.inyeccion_dependencias.repositories.ICarRepository;
 @Service
 public class CarService implements ICarService{
 
+    
     @Autowired
-    @Qualifier("carRepository")
+    @Qualifier("carRepositoryJson")
     private ICarRepository repository;
 
 
